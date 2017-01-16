@@ -1,7 +1,6 @@
 ---
 layout: post
 title: User Experience Survey about Two visualization Form (Histogram vs. Scatterplot )
-tag: 2017
 ---
 
 ### 0.Motivation
