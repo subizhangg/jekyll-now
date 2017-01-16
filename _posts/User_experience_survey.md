@@ -79,7 +79,7 @@ p3 <- survey_data %>%
 grid.arrange(p1,p3,top = "How easily to estimate the general distribution/trend ?")
 ```
 
-![](exercise1_answer_files/figure-markdown_github/Q1%20Q3%20plot-1.png)
+![](../images/Q1%20Q3%20plot-1.png)
 
 Most users think it's much easier to estimate the general distribution in histogram plot than in scatterplot, but a little bit harder to estimate the general trend compared to scatterplot.
 
@@ -160,7 +160,7 @@ p6 <- survey_data %>%
 grid.arrange(p5,p6,top = "Users' guess about the distribution type of each variable")
 ```
 
-![](exercise1_answer_files/figure-markdown_github/Q5%20Q6%20plot-1.png)
+![](../images/Q5%20Q6%20plot-1.png)
 
 On variable intentional walk, nobody guessed it follows normal distribution when reading a histogram. I think it should be one of the most impossible guesses in this case(the normal distribution and binomial distribution is symmetric, which doesn't look like the two type plots in our survey neither)
 
@@ -254,7 +254,7 @@ p4
 
     ## Warning: Removed 1 rows containing non-finite values (stat_density).
 
-![](exercise1_answer_files/figure-markdown_github/Q4,Q9,Q10,Q11,Q12%20plot-1.png)
+![](../images/Q4,Q9,Q10,Q11,Q12%20plot-1.png)
 
 ``` r
 grid.arrange(p9,p10,p11,p12,top = "Estimate of mode and minmum value for each variable")
@@ -268,7 +268,7 @@ grid.arrange(p9,p10,p11,p12,top = "Estimate of mode and minmum value for each va
 
     ## Warning: Removed 1 rows containing non-finite values (stat_density).
 
-![](exercise1_answer_files/figure-markdown_github/Q4,Q9,Q10,Q11,Q12%20plot-2.png)
+![](../images/Q4,Q9,Q10,Q11,Q12%20plot-2.png)
 
 In general, users' estimates of mode have less variation and less extreme value in histogram compared with in scatterplot, which might indicates the historgam is better at expressing mode.
 
@@ -427,7 +427,10 @@ There are 3 questions' results pass the tests: home run's mode, minimum value of
   ggtitle("How easily to identify outliers in each plot? "))
 ```
 
-![](exercise1_answer_files/figure-markdown_github/Q2%20plot-1.png) \#\#\#\#\# Part B: Perform statistical tests
+![](../images/Q2%20plot-1.png)
+
+
+\#\#\#\#\# Part B: Perform statistical tests
 
 Test method : Wilcoxon signed-rank test
 
@@ -482,7 +485,7 @@ grid.arrange(p7,p8,top = "Estimate of numbers of outliers in each plot")
 
     ## Warning: Removed 1 rows containing non-finite values (stat_density).
 
-![](exercise1_answer_files/figure-markdown_github/Q7%20Q8%20plot-1.png)
+![](../images/Q7%20Q8%20plot-1.png)
 
 ##### Part B: Perform statistical tests
 
