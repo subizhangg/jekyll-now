@@ -65,11 +65,10 @@ p3 <- survey_data %>%
 grid.arrange(p1,p3,top = "How easily to estimate the general distribution/trend ?")
 ```
 
-![](../images/Q1%20Q3%20plot-1.png)
+<p style="float: left; font-size: 9pt; text-align: center; width: 48%; margin-right: 1%; margin-bottom: 1em; margin-top: 1em;" class = "large"><img src="../images/q1_q3.png" style="width: 100%;"> comparing trend accessibility </p>
 
 Most users think it's much easier to estimate the general distribution in histogram plot than in scatterplot, but a little bit harder to estimate the general trend compared to scatterplot.
 
-am as well as scatterplot.
 
 ##### Part B: Make conclusions
 
@@ -97,7 +96,7 @@ p6 <- survey_data %>%
 grid.arrange(p5,p6,top = "Users' guess about the distribution type of each variable")
 ```
 
-![](../images/Q5%20Q6%20plot-1.png)
+<p style="float: left; font-size: 9pt; text-align: center; width: 48%; margin-right: 1%; margin-bottom: 1em; margin-top: 1em;" class = "large"><img src="../images/q5_q6.png" style="width: 100%;"> comparing distribution accessibility </p>
 
 On variable intentional walk, nobody guessed it follows normal distribution when reading a histogram. I think it should be one of the most impossible guesses in this case(the normal distribution and binomial distribution is symmetric, which doesn't look like the two type plots in our survey neither)
 
@@ -138,13 +137,14 @@ p12 <-  survey_data %>%
 p4
 ```
 
-![](../images/Q4,Q9,Q10,Q11,Q12%20plot-1.png)
+<p style="float: left; font-size: 9pt; text-align: center; width: 48%; margin-right: 1%; margin-bottom: 1em; margin-top: 1em;" class = "large"><img src="../images/q9_12_1.png" style="width: 100%;"> comparing estimates of the mean </p>
+
 
 ```
-grid.arrange(p9,p10,p11,p12,top = "Estimate of mode and minmum value for each variable")
+grid.arrange(p9,p10,p11,p12,top = "Estimate of mode and minimum value for each variable")
 ```
 
-![](../images/Q4,Q9,Q10,Q11,Q12%20plot-2.png)
+<p style="float: left; font-size: 9pt; text-align: center; width: 48%; margin-right: 1%; margin-bottom: 1em; margin-top: 1em;" class = "large"><img src="../images/q9_12_2.png" style="width: 100%;"> comparing estimates of the mode and minimum </p>
 
 In general, users' estimates of mode have less variation and less extreme value in histogram compared with in scatterplot, which might indicates the histogram is better at expressing mode.
 
@@ -170,7 +170,7 @@ There are 3 questions' results pass the tests: home run's mode, minimum value of
 
 ##### Part A: Visualization users' responses
 
-``` r
+```
 (p2 <- survey_data %>%
   ggplot(aes(x = plot, y= outlier_general,fill = plot )) +
   geom_boxplot() +
@@ -178,7 +178,7 @@ There are 3 questions' results pass the tests: home run's mode, minimum value of
   ggtitle("How easily to identify outliers in each plot? "))
 ```
 
-![](../images/Q2%20plot-1.png)
+<p style="float: left; font-size: 9pt; text-align: center; width: 48%; margin-right: 1%; margin-bottom: 1em; margin-top: 1em;" class = "large"><img src="../images/q2.png" style="width: 100%;"> comparing outlier recognition </p>
 
 
 ##### Part B: Make conclusions
