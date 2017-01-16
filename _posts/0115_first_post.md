@@ -1,10 +1,9 @@
-User Experience Survey about Two visualization Form (Histogram vs.Scatterplot )   
-================
-Qingxue(Subi) Zhang
-January 15, 2017
+---
+layout: post
+title: User Experience Survey about Two visualization Form (Histogram vs.Scatterplot )
+---
 
-Motivation of this survey:
------------------------
+### Motivation of this survey:
 
 Different forms of data visualization convey different insights to certain dataset. We designed a survey about obtaining information between a histogram and a scatterplot, then collected 23 MDS classmates' survey feedback. We mainly focus on presenting two variables(intentional walk & home runs) sourced from the batting table of the Lahman R package (<http://cran.us.r-project.org/web/packages/Lahman/Lahman.pdf>) for the Toronto Blue Jays team for all years in the dataset (1977 - 2015). The Two core questions need to be answered through this analysis are:
 
